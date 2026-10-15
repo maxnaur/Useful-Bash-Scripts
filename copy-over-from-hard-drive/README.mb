@@ -1,6 +1,8 @@
 this is a copy over a drive script that lets you use multile threads (default of 4) to copy a drive content quickly
 
 # how to run
-bash copy-drive-V3-final-version-remove-bug.sh ./dir1 ./dir2 threads
+bash copy-drive-V4.sh ./dir1 ./dir2 threads
 # example
-bash copy-drive-V3-final-version-remove-bug.sh /mnt ~/mnt-dump 28
+bash copy-drive-V4.sh /mnt ~/mnt-dump 28
+
+this copys the file contence each item on a different thread
