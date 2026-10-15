@@ -1,0 +1,5 @@
+This program is to keep up with my constand updates to the config files and is planned to be in the .bashrc file so is a function instead of a bash true script
+
+The first version I thought using a hash could reduse the amount of copying required
+The second version used rsinc which I learned about while making the copy bash script
+

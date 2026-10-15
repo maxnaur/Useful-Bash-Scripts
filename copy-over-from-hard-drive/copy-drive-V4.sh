@@ -3,7 +3,7 @@ set -euo pipefail
 
 SOURCE_DIR="${1:-}"
 DEST_DIR="${2:-}"
-THREADS="${3:-4}"
+THREADS="${3:-8}" # minimum of 8 THREADS
 
 if [[ -z "$SOURCE_DIR" || -z "$DEST_DIR" ]]; then
   echo "Usage: $0 <source_directory> <destination_directory> [jobs]" >&2
